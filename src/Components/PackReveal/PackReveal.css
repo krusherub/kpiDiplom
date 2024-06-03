@@ -1,0 +1,35 @@
+#packreveal-text {
+    position: absolute;
+    top: 68%;
+    left: 16.5%;
+    font-size: 1.6vw;
+    color: #ffffff;
+    width: 65%;
+}
+
+.pack-reveal-bg {
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    width: 90%;
+}
+
+.pack-reveal-okay-btn {
+    position: absolute;
+    bottom: 0;
+    left: 39%;
+    cursor: pointer;
+    width: 20%;
+    transition: 0.4s all;
+}
+
+.pack-reveal-okay-btn:hover {
+    transform: scale(1.1);
+}
+
+.pack-reveal-img {
+    position: absolute;
+    top: 30%;
+    left: 39%;
+    width: 20%;
+}

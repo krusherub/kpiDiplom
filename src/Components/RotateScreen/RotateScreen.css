@@ -1,0 +1,18 @@
+#rotate-wrapper {
+	width: 80%;
+	margin: auto;
+	position: relative;
+}
+
+#rotate-bg-img {
+	width: 100%;
+}
+
+#rotate-text {
+	position: absolute;
+	font-size: 4vw;
+	left: 17%;
+	top: 43%;
+	color: #ffffff;
+	text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 -1px 1px 0, #000000 1px -1px 0;
+}

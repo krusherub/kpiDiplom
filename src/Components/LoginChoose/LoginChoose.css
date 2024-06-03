@@ -1,0 +1,122 @@
+  .login-choose-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    /*color: #923935;*/
+    color: white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 1rem 0 1rem;
+  }
+
+
+  .login-button--img {
+    width: 3.4rem;
+    height: auto;
+    margin: 0 2.4rem;
+  }
+
+  .login-button--text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #000;
+    flex: 1 1;
+    order: 1;
+    margin: 0 1.4rem 0 0;
+    font-weight: bold;
+  }
+
+  #login-img-anchor {
+    width: 3rem;
+  }
+
+  .choose-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  #choose-background {
+    width: 80%;
+  }
+
+  .modal-container-choose {
+    margin-top: 40px;
+    background-size: contain;
+    transform: scale(0.5);
+    transition: 0.4s all;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .modal-container-choose.active {
+    transform: scale(1);
+  }
+
+  #choose-close {
+    width: 7%;
+    top: -8%;
+    right: 7%;
+    cursor: pointer;
+    position: absolute;
+  }
+
+  #choose-header {
+    width: 27%;
+    position: absolute;
+    top: -10%;
+    left: 36.5%;
+  }
+
+  #choose-text {
+    position: absolute;
+    width: 25%;
+    top: 23%;
+    left: 37.5%;
+    color: white;
+    font-size: 2vw;
+  }
+
+  #choose-second-background {
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    height: 55%;
+  }
+
+  .choose-button {
+    position: absolute;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    width: 45%;
+    left: 28%;
+  }
+
+  .choose-button:hover {
+    transform: scale(1.1,1.1);
+  }
+
+  #wax-button {
+    top: 35%;
+  }
+
+  #anchor-button {
+    top: 57%;
+  }
+
+  @media (max-height: 450px) {
+    #choose-text {
+      width: 35%;
+      left: 32.5%;
+    }
+  }

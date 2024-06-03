@@ -1,0 +1,57 @@
+.reg-background {
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    width: 80%;
+}
+
+#reg-header-text {
+    position: absolute;
+    top: 33%;
+    left: 28%;
+    font-size: 2vw;
+    color: #ffffff;
+}
+
+#reg-welcome-text {
+    position: absolute;
+    top: 46%;
+    left: 16%;
+    font-size: 1.6vw;
+    color: #ffffff;
+    width: 65%;
+
+}
+
+.reg-info-img {
+    position: absolute;
+    width: 3%;
+    top: 77%;
+    left: 30%;
+}
+
+#reg-inviter-text {
+    position: absolute;
+    bottom: 18%;
+    left: 19%;
+    font-size: 1.2vw;
+    color: #ffffff;
+    width: 65%;
+}
+
+#inviter-name-text {
+    color: black;
+}
+
+.reg-signup-btn {
+    position: absolute;
+    width: 24%;
+    top: 88%;
+    left: 38%;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+
+.reg-signup-btn:hover {
+    transform: scale(1.1);
+}

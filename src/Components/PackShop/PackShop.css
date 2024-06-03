@@ -1,0 +1,896 @@
+#pack-item-bg {
+	width: 24%;
+	position: absolute;
+	top: 23%;
+	right: 68%;
+}
+
+#chances-bg {
+	width: 53%;
+	position: absolute;
+	top: 22%;
+	right: 9%;
+}
+
+#pack-first-item-bg {
+	width: 15%;
+	position: absolute;
+	top: 33%;
+	right: 44%;
+}
+
+#pack-second-item-bg {
+	width: 15%;
+	position: absolute;
+	top: 33%;
+	right: 28%;
+}
+
+#pack-img {
+	width: 20%;
+	position: absolute;
+	top: 29%;
+	right: 70.5%;
+}
+
+#pack-third-item-bg {
+	width: 15%;
+	position: absolute;
+	top: 33%;
+	right: 12%;
+}
+
+#token-price-bg {
+	width: 23%;
+	position: absolute;
+	top: 63%;
+	right: 68%;
+}
+
+#pack-buy-btn {
+	width: 17%;
+	position: absolute;
+	top: 74%;
+	right: 71%;
+	cursor: pointer;
+	transition: 0.4s all;
+}
+
+#pack-buy-btn:hover {
+	transform: scale(1.1);
+}
+
+#pack-first-item-name {
+	position: absolute;
+	top: 27%;
+	left: 39%;
+	font-size: 1.3vw;
+	color: #ffffff;
+	width: 20%;
+}
+
+#pack-second-item-name {
+	position: absolute;
+	top: 27%;
+	left: 55%;
+	font-size: 1.3vw;
+	color: #ffffff;
+	width: 20%;
+}
+
+#buy-pack-text {
+	position: absolute;
+	top: 26%;
+	left: 16%;
+	font-size: 1.3vw;
+	color: #ffffff;
+}
+
+#pack-third-item-name {
+	position: absolute;
+	top: 27%;
+	left: 70.5%;
+	font-size: 1.3vw;
+	color: #ffffff;
+	width: 20%;
+}
+
+#pack-first-item-class {
+	position: absolute;
+	top: 60%;
+	left: 44%;
+	font-size: 1.4vw;
+	color: #ffffff;
+}
+
+#pack-second-item-class {
+	position: absolute;
+	top: 60%;
+	left: 60%;
+	font-size: 1.4vw;
+	color: #ffffff;
+}
+
+#pack-third-item-class {
+	position: absolute;
+	top: 60%;
+	left: 76%;
+	font-size: 1.4vw;
+	color: #ffffff;
+}
+
+#pack-text-divider {
+	width: 47%;
+	position: absolute;
+	top: 67%;
+	right: 13%;
+}
+
+#pack-first-item-chance {
+	position: absolute;
+	top: 70%;
+	left: 42.5%;
+	font-size: 1.4vw;
+	color: #ffffff;
+}
+
+#pack-second-item-chance {
+	position: absolute;
+	top: 70%;
+	left: 58.5%;
+	font-size: 1.4vw;
+	color: #ffffff;
+}
+
+#pack-third-item-chance {
+	position: absolute;
+	top: 70%;
+	left: 75%;
+	font-size: 1.4vw;
+	color: #ffffff;
+}
+
+#pack-info-text {
+	position: absolute;
+	top: 80%;
+	left: 56%;
+	font-size: 0.8vw;
+	color: #ffffff;
+}
+
+#pack-info-img {
+	width: 2%;
+	position: absolute;
+	top: 79.5%;
+	right: 44.5%;
+}
+
+#pack-price-text {
+	position: absolute;
+	top: 65.5%;
+	left: 14.5%;
+	font-size: 1.6vw;
+	color: #ffffff;
+	width: 10%;
+}
+
+/*Old styles*/
+.modal-craft-container {
+	width: 50% !important;
+	height: 80%;
+	justify-content: flex-start !important;
+}
+
+.craft-control-button {
+	cursor: pointer;
+	transition: 0.4s all;
+	width: 15vh;
+	align-self: center;
+}
+
+.craft-main-img {
+	width: 24vh;
+	align-self: center;
+}
+
+.craft-control-button:hover {
+	transform: scale(1.1);
+}
+
+.toolData {
+	display: flex;
+}
+
+.craft-mine-token {
+	width: 30px;
+	margin: -5px 0 0 10px;
+}
+
+.craft-main-place {
+	display: flex;
+	width: 110%;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+/* STYLES FOR NEW CRAFT */
+
+#craft-container {
+	position: relative;
+}
+
+#craft-header {
+	width: 50%;
+	position: absolute;
+	top: -10%;
+	left: 25.5%;
+}
+
+#craft-name {
+	width: 8%;
+	position: absolute;
+	top: -5.5%;
+	left: 33%;
+}
+
+#craft-left-scroll {
+	width: 9%;
+	position: absolute;
+	top: 34%;
+	left: -0.5%;
+	cursor: pointer;
+}
+
+#craft-left-scroll:hover {
+	filter: brightness(1.3);
+}
+
+#craft-right-scroll {
+	width: 9%;
+	position: absolute;
+	top: 34%;
+	cursor: pointer;
+	right: -0.5%;
+}
+
+
+#craft-right-scroll:hover {
+	filter: brightness(1.3);
+}
+
+#craft-block-1-img {
+	width: 20%;
+	position: absolute;
+	top: 12%;
+	left: 9%;
+}
+
+#craft-block-2-img {
+	width: 20%;
+	position: absolute;
+	top: 12%;
+	left: 29.8%;
+}
+
+#craft-block-3-img {
+	width: 20%;
+	position: absolute;
+	top: 12%;
+	left: 50.6%;
+}
+
+#craft-block-4-img {
+	width: 20%;
+	position: absolute;
+	top: 12%;
+	left: 71.4%;
+}
+
+#craft-block-1-item-img {
+	width: 20%;
+	position: absolute;
+	top: 10.5%;
+	left: 8.3%;
+}
+
+#craft-block-2-item-img {
+	width: 20%;
+	position: absolute;
+	top: 10.5%;
+	left: 29.1%;
+}
+
+#craft-block-3-item-img {
+	width: 20%;
+	position: absolute;
+	top: 10.5%;
+	left: 49.9%;
+}
+
+#craft-block-4-item-img {
+	width: 20%;
+	position: absolute;
+	top: 10.5%;
+	left: 70.7%;
+}
+
+#craft-block-1-durability-img {
+	width: 2%;
+	position: absolute;
+	top: 46.5%;
+	left: 23%;
+}
+
+#craft-block-2-durability-img {
+	width: 2%;
+	position: absolute;
+	top: 46.5%;
+	left: 43.8%;
+}
+
+#craft-block-3-durability-img {
+	width: 2%;
+	position: absolute;
+	top: 46.5%;
+	left: 64.6%;
+}
+
+#craft-block-4-durability-img {
+	width: 2%;
+	position: absolute;
+	top: 46.5%;
+	left: 85.4%;
+}
+
+#craft-block-1-durability-text {
+	position: absolute;
+	font-size: 1.3vw;
+	top: 46.5%;
+	left: 25.4%;
+	text-shadow: #FFFFFF 1px 1px 0,
+	#FFFFFF -1px -1px 0,
+	#FFFFFF -1px 1px 0,
+	#FFFFFF 1px -1px 0;
+}
+
+#craft-block-2-durability-text {
+	position: absolute;
+	font-size: 1.3vw;
+	top: 46.5%;
+	left: 46.2%;
+	text-shadow: #FFFFFF 1px 1px 0,
+	#FFFFFF -1px -1px 0,
+	#FFFFFF -1px 1px 0,
+	#FFFFFF 1px -1px 0;
+}
+
+#craft-block-3-durability-text {
+	position: absolute;
+	font-size: 1.3vw;
+	top: 46.5%;
+	left: 67%;
+	text-shadow: #FFFFFF 1px 1px 0,
+	#FFFFFF -1px -1px 0,
+	#FFFFFF -1px 1px 0,
+	#FFFFFF 1px -1px 0;
+}
+
+#craft-block-4-durability-text {
+	position: absolute;
+	font-size: 1.3vw;
+	top: 46.5%;
+	left: 87.8%;
+	text-shadow: #FFFFFF 1px 1px 0,
+	#FFFFFF -1px -1px 0,
+	#FFFFFF -1px 1px 0,
+	#FFFFFF 1px -1px 0;
+}
+
+#craft-block-1-craft-cost-bg {
+	width: 18%;
+	position: absolute;
+	top: 64%;
+	left: 10%;
+}
+
+#craft-block-2-craft-cost-bg {
+	width: 18%;
+	position: absolute;
+	top: 64%;
+	left: 30.8%;
+}
+
+#craft-block-3-craft-cost-bg {
+	width: 18%;
+	position: absolute;
+	top: 64%;
+	left: 51.6%;
+}
+
+#craft-block-4-craft-cost-bg {
+	width: 18%;
+	position: absolute;
+	top: 64%;
+	left: 72.4%;
+}
+
+#craft-block-1-rarity-text {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	top: 54%;
+	left: 10.6%;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#craft-block-2-rarity-text {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	top: 54%;
+	left: 31.4%;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#craft-block-3-rarity-text {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	top: 54%;
+	left: 52.2%;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#craft-block-4-rarity-text {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	top: 54%;
+	left: 73%;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#craft-block-1-rarity-desc-text {
+	position: absolute;
+	color: white;
+	font-size: 1.3vw;
+	top: 58.5%;
+	left: 10.6%;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#craft-block-2-rarity-desc-text {
+	position: absolute;
+	color: white;
+	font-size: 1.3vw;
+	top: 58.5%;
+	left: 31.4%;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#craft-block-3-rarity-desc-text {
+	position: absolute;
+	color: white;
+	font-size: 1.3vw;
+	top: 58.5%;
+	left: 52.2%;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#craft-block-4-rarity-desc-text {
+	position: absolute;
+	color: white;
+	font-size: 1.3vw;
+	top: 58.5%;
+	left: 73%;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#craft-block-1-rewards-text {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	top: 54%;
+	left: 21%;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#craft-block-2-rewards-text {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	top: 54%;
+	left: 41.8%;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#craft-block-3-rewards-text {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	top: 54%;
+	left: 62.6%;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#craft-block-4-rewards-text {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	top: 54%;
+	left: 83.4%;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#craft-block-1-token {
+	width: 5%;
+	position: absolute;
+	top: 58%;
+	left: 17.5%;
+}
+
+#craft-block-2-token {
+	width: 5%;
+	position: absolute;
+	top: 58%;
+	left: 38.3%;
+}
+
+#craft-block-3-token {
+	width: 5%;
+	position: absolute;
+	top: 58%;
+	left: 59.5%;
+}
+
+#craft-block-4-token {
+	width: 5%;
+	position: absolute;
+	top: 58%;
+	left: 79.9%;
+}
+
+#craft-block-1-token-rewards {
+	position: absolute;
+	color: yellow;
+	font-size: 2.4vw;
+	top: 58%;
+	left: 23%;
+	text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 -1px 1px 0, #000000 1px -1px 0;
+}
+
+#craft-block-2-token-rewards {
+	position: absolute;
+	color: yellow;
+	font-size: 2.4vw;
+	top: 58%;
+	left: 43.8%;
+	text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 -1px 1px 0, #000000 1px -1px 0;
+}
+
+#craft-block-3-token-rewards {
+	position: absolute;
+	color: yellow;
+	font-size: 2.4vw;
+	top: 58%;
+	left: 64.6%;
+	text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 -1px 1px 0, #000000 1px -1px 0;
+}
+
+#craft-block-4-token-rewards {
+	position: absolute;
+	color: yellow;
+	font-size: 2.4vw;
+	top: 58%;
+	left: 85.4%;
+	text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 -1px 1px 0, #000000 1px -1px 0;
+}
+
+.craft-block-craft-cost-text {
+	position: absolute;
+	color: yellow;
+	font-size: 1.3vw;
+	text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 -1px 1px 0, #000000 1px -1px 0;
+}
+
+#craft-block-1-craft-cost-text {
+	top: 65%;
+	left: 11.7%;
+}
+
+#craft-block-2-craft-cost-text {
+	top: 65%;
+	left: 32.5%;
+}
+
+#craft-block-3-craft-cost-text {
+	top: 65%;
+	left: 53.3%;
+}
+
+#craft-block-4-craft-cost-text {
+	top: 65%;
+	left: 74.1%;
+}
+
+.craft-block-craft-cost-craft-text {
+	position: absolute;
+	color: brown;
+	font-size: 1.2vw;
+	text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 -1px 1px 0, #000000 1px -1px 0;
+}
+
+#craft-block-1-craft-cost-craft-text {
+	top: 71%;
+	left: 11.2%;
+}
+
+#craft-block-2-craft-cost-craft-text {
+	top: 71%;
+	left: 32%;
+}
+
+#craft-block-3-craft-cost-craft-text {
+	top: 71%;
+	left: 52.8%;
+}
+
+#craft-block-4-craft-cost-craft-text {
+	top: 71%;
+	left: 73.6%;
+}
+
+#craft-block-1-craft-cost-repair-text {
+	top: 71%;
+	left: 21.2%;
+}
+
+#craft-block-2-craft-cost-repair-text {
+	top: 71%;
+	left: 42%;
+}
+
+#craft-block-3-craft-cost-repair-text {
+	top: 71%;
+	left: 62.8%;
+}
+
+#craft-block-4-craft-cost-repair-text {
+	top: 71%;
+	left: 83.6%;
+}
+
+.craft-block-token-cost-craft {
+	width: 2.7%;
+	position: absolute;
+}
+
+#craft-block-1-token-cost-craft-1 {
+	top: 76%;
+	left: 11.1%;
+}
+
+#craft-block-2-token-cost-craft-1 {
+	top: 76%;
+	left: 31.9%;
+}
+
+#craft-block-3-token-cost-craft-1 {
+	top: 76%;
+	left: 52.7%;
+}
+
+#craft-block-4-token-cost-craft-1 {
+	top: 76%;
+	left: 73.5%;
+}
+
+.craft-block-craft-cost-craft-count-text {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1.5vw;
+	text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 -1px 1px 0, #000000 1px -1px 0;
+}
+
+#craft-block-1-craft-cost-craft-count-1 {
+	top: 76%;
+	left: 14.1%;
+}
+
+#craft-block-2-craft-cost-craft-count-1 {
+	top: 76%;
+	left: 34.9%;
+}
+
+#craft-block-3-craft-cost-craft-count-1 {
+	top: 76%;
+	left: 55.7%;
+}
+
+#craft-block-4-craft-cost-craft-count-1 {
+	top: 76%;
+	left: 76.5%;
+}
+
+
+#craft-block-1-token-cost-craft-2 {
+	top: 82.5%;
+	left: 11.1%;
+}
+
+#craft-block-2-token-cost-craft-2 {
+	top: 82.5%;
+	left: 31.9%;
+}
+
+#craft-block-3-token-cost-craft-2 {
+	top: 82.5%;
+	left: 52.7%;
+}
+
+#craft-block-4-token-cost-craft-2 {
+	top: 82.5%;
+	left: 73.5%;
+}
+
+#craft-block-1-craft-cost-craft-count-2 {
+	top: 82%;
+	left: 14.1%;
+}
+
+#craft-block-2-craft-cost-craft-count-2 {
+	top: 82%;
+	left: 34.9%;
+}
+
+#craft-block-3-craft-cost-craft-count-2 {
+	top: 82%;
+	left: 55.7%;
+}
+
+#craft-block-4-craft-cost-craft-count-2 {
+	top: 82%;
+	left: 76.5%;
+}
+
+#craft-block-1-token-cost-repair-1 {
+	top: 76%;
+	left: 21.1%;
+}
+
+#craft-block-2-token-cost-repair-1 {
+	top: 76%;
+	left: 41.9%;
+}
+
+#craft-block-3-token-cost-repair-1 {
+	top: 76%;
+	left: 62.7%;
+}
+
+#craft-block-4-token-cost-repair-1 {
+	top: 76%;
+	left: 83.5%;
+}
+
+#craft-block-1-craft-cost-repair-count-1 {
+	top: 76%;
+	left: 24.1%
+}
+
+#craft-block-2-craft-cost-repair-count-1 {
+	top: 76%;
+	left: 44.9%
+}
+
+#craft-block-3-craft-cost-repair-count-1 {
+	top: 76%;
+	left: 65.7%
+}
+
+#craft-block-4-craft-cost-repair-count-1 {
+	top: 76%;
+	left: 86.5%
+}
+
+#craft-block-1-token-cost-repair-2 {
+	top: 82.5%;
+	left: 21.1%;
+}
+
+#craft-block-2-token-cost-repair-2 {
+	top: 82.5%;
+	left: 41.9%;
+}
+
+#craft-block-3-token-cost-repair-2 {
+	top: 82.5%;
+	left: 62.7%;
+}
+
+#craft-block-4-token-cost-repair-2 {
+	top: 82.5%;
+	left: 83.5%;
+}
+
+#craft-block-1-craft-cost-repair-count-2 {
+	top: 82%;
+	left: 24.1%
+}
+
+#craft-block-2-craft-cost-repair-count-2 {
+	top: 82%;
+	left: 44.9%
+}
+
+#craft-block-3-craft-cost-repair-count-2 {
+	top: 82%;
+	left: 65.7%
+}
+
+#craft-block-4-craft-cost-repair-count-2 {
+	top: 82%;
+	left: 86.5%
+}
+
+.craft-block-craft-btn {
+	width: 14%;
+	position: absolute;
+	cursor: pointer;
+}
+
+#craft-block-1-craft-btn {
+	top: 90%;
+	left: 12%;
+}
+
+#craft-block-2-craft-btn {
+	top: 90%;
+	left: 32.8%;
+}
+
+#craft-block-3-craft-btn {
+	top: 90%;
+	left: 53.6%;
+}
+
+#craft-block-4-craft-btn {
+	top: 90%;
+	left: 74.4%;
+}

@@ -1,0 +1,45 @@
+
+
+#error-header-img {
+	position: absolute;
+	top: -10%;
+	left: 30%;
+	width: 38%;
+}
+
+#error-img {
+	position: absolute;
+	top: 20%;
+	left: 27%;
+	width: 41%;
+}
+
+#error-default-message {
+	position: absolute;
+	top: 69%;
+	left: 20%;
+	font-size: 1.6vw;
+	width: 60%;
+	color: #ffffff;
+}
+
+#error-message {
+	color: #ffffff;
+	position: absolute;
+	top: 77%;
+	left: 25%;
+	width: 50%;
+	font-size: 1.6vw;
+	text-shadow: #000000 1px 1px 0,
+	#000000 -1px -1px 0,
+	#000000 -1px 1px 0,
+	#000000 1px -1px 0;
+}
+
+#error-submit-btn {
+	width: 18%;
+	bottom: -4%;
+	left: 41%;
+	position: absolute;
+	cursor: pointer;
+}

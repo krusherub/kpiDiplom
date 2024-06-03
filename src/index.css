@@ -1,0 +1,38 @@
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Chunq', cursive;
+}
+
+@font-face {
+	font-family: 'Chunq';
+	src: url('fonts/Chunq.ttf') format('truetype');
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+	monospace;
+}
+
+.modal-wrapper {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.55);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9998;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.modal-wrapper.active {
+	opacity: 1;
+	pointer-events: all;
+}

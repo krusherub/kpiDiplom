@@ -1,0 +1,121 @@
+
+/* MODAL STYLES */
+
+.modal-container {
+    background-size: contain;
+    transform: scale(0.5);
+    transition: 0.4s all;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-container.active {
+    transform: scale(1);
+}
+
+@media (max-height: 360px) {
+    .modal-container {
+        background-size: contain;
+        transform: scale(0.5);
+        transition: 0.4s all;
+        position: relative;
+        width: 67%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .exchange-token-name {
+        position: absolute;
+        font-size: 2vw;
+        color: #F9D306;
+        text-shadow: #402110 1px 1px 0, #402110 -1px -1px 0, #402110 -1px 1px 0, #402110 1px -1px 0;
+    }
+
+    #mine-timer-text {
+        color: #FFD800;
+        width: 16%;
+        text-align: center;
+        position: absolute;
+        top: 28%;
+        font-size: 1.5vw;
+        left: 66%;
+        text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 -1px 1px 0, #000000 1px -1px 0;
+    }
+
+    .mine-text-default {
+        font-size: 1.5vw;
+        position: absolute;
+        text-shadow: #000 1px 1px 0, #000 -1px -1px 0, #000 -1px 1px 0, #000 1px -1px 0;
+    }
+
+    #mine-text-rarity {
+        right: 35%;
+        top: 42%;
+    }
+
+    #mine-text-durability {
+        right: 30.5%;
+        top: 53%;
+    }
+
+    #mine-text-type {
+        right: 36.5%;
+        top: 63%;
+    }
+
+    .exchange-token-name {
+        position: absolute;
+        font-size: 2vw !important;
+        color: #F9D306;
+        text-shadow: #402110 1px 1px 0, #402110 -1px -1px 0, #402110 -1px 1px 0, #402110 1px -1px 0;
+    }
+
+    #diamonds-name {
+        top: 65.5% !important;
+        left: 25%;
+    }
+}
+
+.modal-container.active {
+    transform: scale(1);
+}
+
+
+.modal-background {
+    width: 100%;
+}
+
+.modal-close-btn {
+    width: 7%;
+    position: absolute;
+    top: 4%;
+    right: -0.5%;
+    cursor: pointer;
+}
+
+.modal-title-text {
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    top: 4.5%;
+    font-size: 2.2vw;
+    color: #ffffff;
+    text-shadow: 0 4px 0 rgba(150, 150, 150, 1);
+    letter-spacing: 0.1rem;
+}
+
+.custom-modal-content {
+    position: relative;
+    width: 85%;
+    text-align: center;
+}

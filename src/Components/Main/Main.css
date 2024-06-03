@@ -1,0 +1,599 @@
+.main-container {
+	background: url("../../img/common/background-main.png") no-repeat;
+	background-size: 100% 100%;
+	/*filter: blur(8px);*/
+	backdrop-filter: blur(10px);
+	z-index: -5;
+	border: none;
+	box-sizing: border-box;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+
+}
+
+.videoTag {
+	z-index: -10;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#controls-container {
+	width: 62%; /*update*/
+	position: absolute;
+	left: 19.5%; /*update*/
+	bottom: 100%;
+}
+
+#controls-container-button-city {
+	width: 12%;
+	position: absolute;
+	left: 25%; /*update*/
+	bottom: 2vw;
+	cursor: pointer;
+}
+
+#controls-container-button-inventory {
+	width: 12%;
+	position: absolute;
+	left: 38%; /*update 31*/
+	bottom: 2vw;
+	cursor: pointer;
+}
+
+#controls-container-button-craft {
+	width: 12%;
+	position: absolute;
+	left: 51%; /*update */
+	bottom: 2vw;
+	cursor: pointer;
+}
+
+#controls-container-button-exchange {
+	width: 12%;
+	position: absolute;
+	left: 64%; /*update*/
+	bottom: 2vw;
+	cursor: pointer;
+}
+
+#controls-container-button-bank {
+	width: 62%; /*update*/
+	position: absolute;
+	left: 19.5%; /*update*/
+	bottom: 2vw;
+	cursor: pointer;
+	display: none; /*update*/
+}
+
+/* ------------- OLD CSS ----------- */
+
+.avatar-container {
+	background: url("../../img/avatar-border.png") no-repeat;
+	display: flex;
+	background-size: inherit;
+	position: absolute;
+	padding: 8px 24px 8px 8px;
+	top: 4%;
+	left: 3%;
+	color: white;
+	margin: auto;
+	font-size: 20px;
+	text-shadow: #402110 2px 2px 0,
+	#402110 -2px -2px 0,
+	#402110 -2px 2px 0,
+	#402110 2px -2px 0;
+}
+
+.avatar img {
+	width: 35px;
+}
+
+.avatar__logo-img {
+	width: 15vh;
+}
+
+.avatar-container:hover {
+	filter: brightness(1.2);
+}
+
+.tokens-container {
+	position: absolute;
+	left: 30%;
+	top: 4%;
+	display: flex;
+	flex-direction: row;
+}
+
+.main-controls-container {
+	position: relative;
+}
+
+.main-controls-container {
+	bottom: 0;
+	height: auto;
+	margin: auto;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+.main-control-panel {
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.controls-container-button {
+	transition: 0.4s all;
+}
+
+.controls-container-button:hover {
+	transform: scale(1.1);
+}
+
+#controls-container-button-shop {
+	width: 61%; /*update*/
+	position: absolute;
+	left: 20%; /*update*/
+	bottom: 485%;
+	cursor: pointer;
+}
+
+
+#controls-container-button-blend {
+	width: 8%;
+	position: absolute;
+	left: 54.5%;
+	bottom: 510%;
+	cursor: pointer;
+}
+
+#controls-container-button-expedition {
+	width: 8%;
+	position: absolute;
+	left: 64%;
+	bottom: 480%;
+	cursor: pointer;
+}
+
+#controls-container-button-news {
+	width: 9%;
+	position: absolute;
+	left: 73%;
+	bottom: 518%;
+	cursor: pointer;
+}
+
+#controls-container-button-bonuses {
+	width: 7%;
+	position: absolute;
+	left: 83%;
+	bottom: 501%;
+	cursor: pointer;
+}
+
+#controls-container-button-text-shop {
+	width: 5.5%;
+	position: absolute;
+	left: 46%;
+	bottom: 244%;
+}
+
+#controls-container-button-text-mine {
+	width: 5.5%;
+	position: absolute;
+	left: 4.5%;
+	bottom: 253%;
+}
+
+#controls-container-button-text-inventory {
+	width: 10%;
+	position: absolute;
+	left: 11.8%;
+	bottom: 236%;
+}
+
+#controls-container-button-text-craft {
+	width: 5.3%;
+	position: absolute;
+	left: 24.8%;
+	bottom: 257%;
+}
+
+#controls-container-button-text-exchange {
+	width: 9.3%;
+	position: absolute;
+	left: 33%;
+	bottom: 245%;
+}
+
+#controls-container-button-text-blend {
+	width: 6.3%;
+	position: absolute;
+	left: 55.5%;
+	bottom: 252%;
+}
+
+#controls-container-button-text-expedition {
+	width: 11%;
+	position: absolute;
+	left: 62.8%;
+	bottom: 248%;
+}
+
+#controls-container-button-text-news {
+	width: 6%;
+	position: absolute;
+	left: 74.5%;
+	bottom: 256%;
+}
+
+#controls-container-button-text-bonuses {
+	width: 8%;
+	position: absolute;
+	left: 82%;
+	bottom: 256%;
+}
+
+#main-contact-text-img {
+	width: 7%;
+	position: absolute;
+	right: 1%;
+	bottom: 258%;
+}
+
+#main-contact-img {
+	width: 5%;
+	position: absolute;
+	right: 1.9%;
+	bottom: 512%;
+}
+
+.main-control-panel-item {
+	margin: auto 0;
+}
+
+.control-button {
+	margin: 0 1rem;
+	cursor: pointer;
+	transition: 0.4s all;
+}
+
+.control-button-mine {
+	width: 10%;
+	position: absolute;
+	top: 11%;
+	left: 11%;
+}
+
+
+.control-button-text-mine {
+	margin: 0 1rem 1rem;
+	width: 50%;
+}
+
+.control-button-text {
+	margin: 0 1rem 1rem;
+	width: 50%;
+}
+
+.control-button-inventory {
+	width: 58%;
+}
+
+.control-button-text-inventory {
+	margin: 0 1rem 2rem;
+	width: 70%;
+}
+
+.control-button-craft {
+	width: 72%;
+}
+
+.control-button-text-craft {
+	margin: 0 1rem 1rem;
+	width: 50%;
+}
+
+.control-button-exchange {
+	width: 58%;
+}
+
+.control-button-text-exchange {
+	margin: 0 1rem 1rem;
+	width: 60%;
+}
+
+.control-button:hover {
+	transform: scale(1.1);
+}
+
+h4 {
+	color: white;
+}
+
+.token-content {
+	display: flex;
+	width: 240px;
+	margin-right: 25px;
+	background: url("../../img/avatar-border.png") no-repeat;
+	background-size: contain;
+}
+
+.token-content-plus img {
+	cursor: pointer;
+	transition: 0.4s all;
+	margin-top: -10px;
+	width: 70px;
+}
+
+.token-content-plus:hover img {
+	transform: scale(1.1);
+}
+
+.token-number {
+	padding: 15px;
+	margin: 0 auto;
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	text-shadow: #402110 2px 2px 0,
+	#402110 -2px -2px 0,
+	#402110 -2px 2px 0,
+	#402110 2px -2px 0;
+}
+
+.mining-button {
+	width: 100%;
+}
+
+.token-img img {
+	width: 100px;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+
+.disabled-button {
+	user-select: none;
+	opacity: 0.7;
+	pointer-events: none;
+}
+
+.main-header-container {
+	position: relative;
+	width: 100%;
+	height: 15vw;
+}
+
+.main-block-bg {
+	width: 17%;
+	position: absolute;
+}
+
+#main-avatar-bg {
+	top: 20%;
+	left: 7%;
+}
+
+.profit-block-bg {
+	width: 17%;
+	position: absolute;
+	top: 55%;
+	left: 7%;
+}
+
+.profit-block-text {
+	position: absolute;
+	top: 60%;
+	color: #ffffff;
+	font-size: 1.5vw;
+	right: 77%;
+}
+
+.profit-block-count {
+	position: absolute;
+	top: 72%;
+	color: #ffffff;
+	font-size: 1.5vw;
+	right: 77%;
+}
+
+.statistic-bg {
+	position: absolute;
+	top: 20%;
+	right: 2%;
+	width: 17%;
+	cursor: pointer;
+}
+
+#main-logout-img {
+	width: 2.5%;
+	position: absolute;
+	top: 25.8%;
+	left: 19.5%;
+	cursor: pointer;
+}
+
+#main-account-name {
+	position: absolute;
+	top: 28%;
+	color: #ffffff;
+	font-size: 1.3vw;
+	left: 10%;
+}
+
+#main-energy-bg {
+	top: 8%;
+	left: 32%;
+}
+
+#main-money-bg {
+	top: 5%;
+	left: 34.5%;
+	width: 20%;
+}
+
+#main-gold-bg {
+	top: 5%;
+	left: 55.5%;
+	width: 20%;
+	display: none;
+	/* update */
+}
+
+#main-food-bg {
+	top: 8%;
+	left: 70%;
+}
+
+#main-plus-token {
+	width: 3.5%;
+	position: absolute;
+	top: -587%;
+	left: 8%;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.main-token-img {
+	width: 7.5%;
+	position: absolute;
+}
+
+.main-token-count {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1.5vw;
+	width: 10%;
+	text-align: center;
+	top: 27.8%;
+}
+
+#main-token-energy-count {
+	left: 39%;
+}
+
+#main-token-money-count {
+	left: 43%;
+}
+
+#main-token-gold-count {
+	left: 64%;
+	/* updata */
+	display: none;
+}
+
+#main-token-food-count {
+	left: 77%;
+}
+
+#main-token-emeralds-count {
+	top: 66%;
+	left: 37%;
+}
+
+#main-token-ruby-count {
+	top: 66%;
+	left: 57%;
+}
+
+#main-token-sapphire-count {
+	top: 66%;
+	left: 77%;
+}
+
+#main-add-ref-btn-img {
+	cursor: pointer;
+	position: absolute;
+	top: 22.8%;
+	left: 25%;
+	width: 3.5%;
+}
+
+#main-link-copied {
+	background: #383940;
+	border-radius: 5px;
+	width: 16%;
+	font-size: 0.9vw;
+	color: #ffffff;
+	position: absolute;
+	text-align: center;
+	top: 46%;
+	left: 25%;
+}
+
+#main-link-copied {
+	opacity: 0;
+	animation: ani 1s forwards;
+}
+
+@keyframes ani {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#main-discount-1 {
+	width: 9%;
+	position: absolute;
+	top: 65%;
+	left: 2%;
+}
+
+#main-discount-2 {
+	width: 9%;
+	position: absolute;
+	top: 65%;
+	left: 11.5%;
+}
+
+#main-discount-3 {
+	width: 9%;
+	position: absolute;
+	top: 65%;
+	left: 21%;
+}
+
+#main-discount-4 {
+	width: 9%;
+	position: absolute;
+	top: 65%;
+	left: 30.5%;
+}
+
+#main-discount-5 {
+	width: 9%;
+	position: absolute;
+	top: 140%;
+	left: 2%;
+}
+
+#main-discount-6 {
+	width: 9%;
+	position: absolute;
+	top: 140%;
+	left: 11.5%;
+}
+
+#main-discount-7 {
+	width: 9%;
+	position: absolute;
+	top: 140%;
+	left: 21%;
+}
+
+#main-discount-8 {
+	width: 9%;
+	position: absolute;
+	top: 140%;
+	left: 30.5%;
+}

@@ -1,0 +1,261 @@
+#statistic-stat-icon {
+    width: 15%;
+    position: absolute;
+    cursor: pointer;
+    left: 7%;
+    top: 18.2%;
+    filter: brightness(0.8);
+}
+
+#statistic-stat-icon.selected {
+    filter: brightness(1.4);
+}
+
+
+#statistic-leader-icon {
+    width: 15%;
+    position: absolute;
+    cursor: pointer;
+    top: 18.2%;
+    left: 23.5%;
+}
+
+#statistic-leader-icon.selected {
+    filter: brightness(1.4);
+}
+
+.statistic-text {
+    position: absolute;
+    font-size: 1.4vw;
+    color: #ffffff;
+}
+
+#first-global-text {
+    top: 40.5%;
+    left: 17%;
+}
+
+#first-global-value {
+    top: 40.5%;
+    right: 52%;
+}
+
+#first-global-bg {
+    width: 34%;
+    position: absolute;
+    top: 39%;
+    right: 51%;
+}
+
+#second-global-text {
+    top: 50.5%;
+    left: 17%;
+}
+
+#second-global-value {
+    top: 50.5%;
+    right: 52%;
+}
+
+#second-global-bg {
+    width: 34%;
+    position: absolute;
+    top: 49%;
+    right: 51%;
+}
+
+#third-global-text {
+    top: 60.5%;
+    left: 17%;
+}
+
+#third-global-value {
+    top: 60.5%;
+    right: 52%;
+}
+
+#third-global-bg {
+    width: 34%;
+    position: absolute;
+    top: 59%;
+    right: 51%;
+}
+
+#fourth-global-text {
+    top: 70.5%;
+    left: 17%;
+}
+
+#fourth-global-value {
+    top: 70.5%;
+    right: 52%;
+}
+
+#fourth-global-bg {
+    width: 34%;
+    position: absolute;
+    top: 69%;
+    right: 51%;
+}
+
+#statistic-vert-divider {
+    width: 0.85%;
+    position: absolute;
+    top: 38.5%;
+    right: 49%;
+}
+
+#first-mycity-text {
+    top: 40.5%;
+    left: 54%;
+}
+
+#first-mycity-value {
+    top: 40.5%;
+    right: 16%;
+}
+
+#first-mycity-bg {
+    width: 34%;
+    position: absolute;
+    top: 39%;
+    right: 14%;
+}
+
+#second-mycity-text {
+    top: 50.5%;
+    left: 54%;
+}
+
+#second-mycity-value {
+    top: 50.5%;
+    right: 16%;
+}
+
+#second-mycity-bg {
+    width: 34%;
+    position: absolute;
+    top: 49%;
+    right: 14%;
+}
+
+#third-mycity-text {
+    top: 60.5%;
+    left: 54%;
+}
+
+#third-mycity-value {
+    top: 60.5%;
+    right: 16%;
+}
+
+#third-mycity-bg {
+    width: 34%;
+    position: absolute;
+    top: 59%;
+    right: 14%;
+}
+
+#my-city-header {
+    top: 32.5%;
+    left: 65%;
+}
+
+#global-header {
+    top: 32.5%;
+    right: 65%;
+}
+
+#global-img {
+    width: 15%;
+    position: absolute;
+    top: 28.5%;
+    left: 24.5%;
+}
+
+#mycity-img {
+    width: 15%;
+    position: absolute;
+    top: 28.5%;
+    right: 24.5%;
+}
+
+#leaderboard-number-header {
+    width: 7%;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+}
+
+#leaderboard-account-header {
+    width: 22%;
+    position: absolute;
+    top: 28%;
+    left: 18.5%;
+}
+
+#leaderboard-profitability-header {
+    width: 22%;
+    position: absolute;
+    top: 28%;
+    left: 42%;
+}
+
+#leaderboard-total-header {
+    width: 22%;
+    position: absolute;
+    top: 28%;
+    left: 65.5%;
+}
+
+#leaderboard-container {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    height: 45%;
+    width: 80%;
+    overflow-y: scroll;
+}
+
+#leaderboard-bg {
+    width: 100%;
+    padding-right: 2%;
+}
+
+.leaderboard-item {
+    margin-bottom: 1%;
+    width: 100%;
+    position: relative;
+}
+
+#leaderboard-item-number {
+    text-align: center;
+    left: 3%;
+    top: 15%;
+}
+
+#leaderboard-item-account {
+    text-align: center;
+    left: 10%;
+    top: 15%;
+    width: 30%;
+}
+
+#leaderboard-item-profitability {
+    text-align: center;
+    left: 44%;
+    top: 15%;
+    width: 20%;
+}
+
+#leaderboard-item-total {
+    text-align: center;
+    left: 76%;
+    top: 15%;
+    width: 15%;
+}
+@media (max-height: 450px) {
+    .statistic-text {
+        font-size: 1.1vw;
+    }
+}

@@ -1,0 +1,225 @@
+.inventory-container-list {
+	height: 25vw;
+	width: 36.8%;
+	display: grid;
+	overflow-y: scroll;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: 0.25fr;
+	position: absolute;
+	top: 25.5%;
+}
+
+
+.inventory-unstaked-list {
+	right: 11%;
+}
+
+.inventory-staked-list {
+	left: 11%;
+}
+
+.inventory-wrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+
+.modal-inventory-container {
+	margin-top: 40px;
+	background-size: contain;
+	transform: scale(0.5);
+	transition: 0.4s all;
+	position: relative;
+	width: 80%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.modal-inventory-container.active {
+	transform: scale(1);
+}
+
+
+.inventory-container {
+	width: 100%;
+	display: flex;
+}
+
+.button-container {
+	width: 100%;
+	margin-top: 1%;
+	display: flex;
+}
+
+.inventory-button {
+	width: 100%;
+	cursor: pointer;
+	transition: 0.4s all;
+}
+
+.inventory-button:hover {
+	transform: scale(1.1);
+}
+
+
+.inventory-item-img {
+	width: 100%;
+	height: 100%;
+	padding: 1% 1% 1% 1%;
+}
+
+.inventory-item {
+	margin: 2% 3% 2% 3%;
+}
+
+.inventory-item.selected {
+	border: 5px solid #EBB017;
+	border-radius: 19%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inventory-item:hover {
+	filter: brightness(1.2);
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: linear-gradient(90deg, #FEE723 0%, #FEB523 19.27%, #FEE823 66.67%, #FEE723 100%);
+}
+
+::-webkit-scrollbar-track {
+	background-image: url("/src/img/scroll_bg.png");
+	background-size: 100% 100%;
+}
+
+.unstake-button-container {
+	position: absolute;
+	bottom: -3%;
+	left: 19%;
+	width: 19%;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.unstake-button-container:hover {
+	transform: scale(1.1);
+}
+
+.stake-button-container {
+	right: 20%;
+	position: absolute;
+	bottom: -3%;
+	width: 19%;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.stake-button-container:hover {
+	transform: scale(1.1);
+}
+
+#inventory-close {
+	width: 7%;
+	top: -8%;
+	right: 2%;
+	cursor: pointer;
+	position: absolute;
+}
+
+#inventory-header {
+	width: 27%;
+	position: absolute;
+	top: -10%;
+	left: 36.5%;
+}
+
+#inventory-items-stacked-background {
+	width: 39%;
+	position: absolute;
+	top: 17%;
+	left: 10%;
+	height: 29vw;
+}
+
+#inventory-items-unstacked-background {
+	width: 39%;
+	position: absolute;
+	top: 17%;
+	right: 10%;
+	height: 29vw;
+}
+
+#inventory-tools-icon {
+	width: 13%;
+	position: absolute;
+	cursor: pointer;
+	left: 10%;
+	top: 16.5%;
+	filter: brightness(0.8);
+}
+
+#inventory-membership-icon {
+	width: 16%;
+	position: absolute;
+	cursor: pointer;
+	left: 24%;
+	top: 16.1%;
+	filter: brightness(0.8);
+}
+
+#inventory-tools-icon.selected {
+	filter: brightness(1);
+}
+
+#inventory-membership-icon.selected {
+	filter: brightness(1);
+}
+
+#inventory-available-icon {
+	width: 16%;
+	position: absolute;
+	cursor: pointer;
+	right: 33%;
+	top: 16.1%;
+}
+
+.inventory-main-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+#inventory-background {
+	width: 90%;
+}
+
+
+@media (max-height: 450px) {
+	#inventory-items-stacked-background {
+		height: 21vw;
+	}
+	.inventory-container-list {
+		height: 17vw;
+	}
+
+	#inventory-items-unstacked-background {
+		height: 21vw;
+	}
+	#inventory-membership-icon {
+		top: 15.1%;
+	}
+	#inventory-tools-icon {
+		top: 15.5%;
+	}
+}
